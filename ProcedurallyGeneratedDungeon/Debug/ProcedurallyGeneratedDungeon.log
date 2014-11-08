@@ -1,15 +1,131 @@
-﻿Build started 07/11/2014 11:03:58 AM.
+﻿Build started 07/11/2014 8:12:44 PM.
      1>Project "C:\Users\Jason\documents\visual studio 2010\Projects\ProcedurallyGeneratedDungeon\ProcedurallyGeneratedDungeon\ProcedurallyGeneratedDungeon.vcxproj" on node 2 (build target(s)).
      1>InitializeBuildStatus:
-         Creating "Debug\ProcedurallyGeneratedDungeon.unsuccessfulbuild" because "AlwaysCreate" was specified.
+         Touching "Debug\ProcedurallyGeneratedDungeon.unsuccessfulbuild".
        ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt src\main.cpp
-         Skipping... (no relevant changes detected)
+         All outputs are up-to-date.
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt height_map.cpp simplex_noise\simplexnoise.cpp src\main.cpp
          main.cpp
+     1>c:\users\jason\documents\visual studio 2010\projects\procedurallygenerateddungeon\procedurallygenerateddungeon\src\main.cpp(100): warning C4244: '=' : conversion from 'float' to 'Uint8', possible loss of data
+     1>c:\users\jason\documents\visual studio 2010\projects\procedurallygenerateddungeon\procedurallygenerateddungeon\src\main.cpp(101): warning C4244: '=' : conversion from 'float' to 'Uint8', possible loss of data
+     1>c:\users\jason\documents\visual studio 2010\projects\procedurallygenerateddungeon\procedurallygenerateddungeon\src\main.cpp(102): warning C4244: '=' : conversion from 'float' to 'Uint8', possible loss of data
+     1>c:\users\jason\documents\visual studio 2010\projects\procedurallygenerateddungeon\procedurallygenerateddungeon\src\main.cpp(165): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>c:\users\jason\documents\visual studio 2010\projects\procedurallygenerateddungeon\procedurallygenerateddungeon\src\main.cpp(169): warning C4244: 'argument' : conversion from 'int' to 'const float', possible loss of data
+     1>c:\users\jason\documents\visual studio 2010\projects\procedurallygenerateddungeon\procedurallygenerateddungeon\src\main.cpp(169): warning C4244: 'argument' : conversion from 'int' to 'const float', possible loss of data
+     1>c:\users\jason\documents\visual studio 2010\projects\procedurallygenerateddungeon\procedurallygenerateddungeon\src\main.cpp(169): warning C4244: 'argument' : conversion from 'int' to 'const float', possible loss of data
+     1>c:\users\jason\documents\visual studio 2010\projects\procedurallygenerateddungeon\procedurallygenerateddungeon\src\main.cpp(169): warning C4244: 'initializing' : conversion from 'float' to 'Uint8', possible loss of data
+         simplexnoise.cpp
+     1>c:\users\jason\documents\visual studio 2010\projects\procedurallygenerateddungeon\procedurallygenerateddungeon\simplex_noise\simplexnoise.cpp(179): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\jason\documents\visual studio 2010\projects\procedurallygenerateddungeon\procedurallygenerateddungeon\simplex_noise\simplexnoise.cpp(185): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\jason\documents\visual studio 2010\projects\procedurallygenerateddungeon\procedurallygenerateddungeon\simplex_noise\simplexnoise.cpp(205): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\jason\documents\visual studio 2010\projects\procedurallygenerateddungeon\procedurallygenerateddungeon\simplex_noise\simplexnoise.cpp(206): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\jason\documents\visual studio 2010\projects\procedurallygenerateddungeon\procedurallygenerateddungeon\simplex_noise\simplexnoise.cpp(216): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\jason\documents\visual studio 2010\projects\procedurallygenerateddungeon\procedurallygenerateddungeon\simplex_noise\simplexnoise.cpp(223): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\jason\documents\visual studio 2010\projects\procedurallygenerateddungeon\procedurallygenerateddungeon\simplex_noise\simplexnoise.cpp(230): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\jason\documents\visual studio 2010\projects\procedurallygenerateddungeon\procedurallygenerateddungeon\simplex_noise\simplexnoise.cpp(239): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\jason\documents\visual studio 2010\projects\procedurallygenerateddungeon\procedurallygenerateddungeon\simplex_noise\simplexnoise.cpp(248): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>c:\users\jason\documents\visual studio 2010\projects\procedurallygenerateddungeon\procedurallygenerateddungeon\simplex_noise\simplexnoise.cpp(254): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>c:\users\jason\documents\visual studio 2010\projects\procedurallygenerateddungeon\procedurallygenerateddungeon\simplex_noise\simplexnoise.cpp(286): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\jason\documents\visual studio 2010\projects\procedurallygenerateddungeon\procedurallygenerateddungeon\simplex_noise\simplexnoise.cpp(287): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\jason\documents\visual studio 2010\projects\procedurallygenerateddungeon\procedurallygenerateddungeon\simplex_noise\simplexnoise.cpp(288): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\jason\documents\visual studio 2010\projects\procedurallygenerateddungeon\procedurallygenerateddungeon\simplex_noise\simplexnoise.cpp(289): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\jason\documents\visual studio 2010\projects\procedurallygenerateddungeon\procedurallygenerateddungeon\simplex_noise\simplexnoise.cpp(290): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\jason\documents\visual studio 2010\projects\procedurallygenerateddungeon\procedurallygenerateddungeon\simplex_noise\simplexnoise.cpp(291): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\jason\documents\visual studio 2010\projects\procedurallygenerateddungeon\procedurallygenerateddungeon\simplex_noise\simplexnoise.cpp(303): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\jason\documents\visual studio 2010\projects\procedurallygenerateddungeon\procedurallygenerateddungeon\simplex_noise\simplexnoise.cpp(310): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\jason\documents\visual studio 2010\projects\procedurallygenerateddungeon\procedurallygenerateddungeon\simplex_noise\simplexnoise.cpp(317): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\jason\documents\visual studio 2010\projects\procedurallygenerateddungeon\procedurallygenerateddungeon\simplex_noise\simplexnoise.cpp(324): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\jason\documents\visual studio 2010\projects\procedurallygenerateddungeon\procedurallygenerateddungeon\simplex_noise\simplexnoise.cpp(333): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\jason\documents\visual studio 2010\projects\procedurallygenerateddungeon\procedurallygenerateddungeon\simplex_noise\simplexnoise.cpp(340): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\jason\documents\visual studio 2010\projects\procedurallygenerateddungeon\procedurallygenerateddungeon\simplex_noise\simplexnoise.cpp(341): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\jason\documents\visual studio 2010\projects\procedurallygenerateddungeon\procedurallygenerateddungeon\simplex_noise\simplexnoise.cpp(406): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\jason\documents\visual studio 2010\projects\procedurallygenerateddungeon\procedurallygenerateddungeon\simplex_noise\simplexnoise.cpp(407): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\jason\documents\visual studio 2010\projects\procedurallygenerateddungeon\procedurallygenerateddungeon\simplex_noise\simplexnoise.cpp(408): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\jason\documents\visual studio 2010\projects\procedurallygenerateddungeon\procedurallygenerateddungeon\simplex_noise\simplexnoise.cpp(409): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\jason\documents\visual studio 2010\projects\procedurallygenerateddungeon\procedurallygenerateddungeon\simplex_noise\simplexnoise.cpp(410): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\jason\documents\visual studio 2010\projects\procedurallygenerateddungeon\procedurallygenerateddungeon\simplex_noise\simplexnoise.cpp(411): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\jason\documents\visual studio 2010\projects\procedurallygenerateddungeon\procedurallygenerateddungeon\simplex_noise\simplexnoise.cpp(412): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\jason\documents\visual studio 2010\projects\procedurallygenerateddungeon\procedurallygenerateddungeon\simplex_noise\simplexnoise.cpp(413): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\jason\documents\visual studio 2010\projects\procedurallygenerateddungeon\procedurallygenerateddungeon\simplex_noise\simplexnoise.cpp(414): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\jason\documents\visual studio 2010\projects\procedurallygenerateddungeon\procedurallygenerateddungeon\simplex_noise\simplexnoise.cpp(415): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\jason\documents\visual studio 2010\projects\procedurallygenerateddungeon\procedurallygenerateddungeon\simplex_noise\simplexnoise.cpp(416): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\jason\documents\visual studio 2010\projects\procedurallygenerateddungeon\procedurallygenerateddungeon\simplex_noise\simplexnoise.cpp(417): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\jason\documents\visual studio 2010\projects\procedurallygenerateddungeon\procedurallygenerateddungeon\simplex_noise\simplexnoise.cpp(431): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\jason\documents\visual studio 2010\projects\procedurallygenerateddungeon\procedurallygenerateddungeon\simplex_noise\simplexnoise.cpp(438): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\jason\documents\visual studio 2010\projects\procedurallygenerateddungeon\procedurallygenerateddungeon\simplex_noise\simplexnoise.cpp(445): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\jason\documents\visual studio 2010\projects\procedurallygenerateddungeon\procedurallygenerateddungeon\simplex_noise\simplexnoise.cpp(452): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\jason\documents\visual studio 2010\projects\procedurallygenerateddungeon\procedurallygenerateddungeon\simplex_noise\simplexnoise.cpp(459): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\jason\documents\visual studio 2010\projects\procedurallygenerateddungeon\procedurallygenerateddungeon\simplex_noise\simplexnoise.cpp(467): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+         height_map.cpp
+     1>c:\users\jason\documents\visual studio 2010\projects\procedurallygenerateddungeon\procedurallygenerateddungeon\height_map.cpp(3): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+     1>c:\users\jason\documents\visual studio 2010\projects\procedurallygenerateddungeon\procedurallygenerateddungeon\height_map.cpp(4): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+     1>c:\users\jason\documents\visual studio 2010\projects\procedurallygenerateddungeon\procedurallygenerateddungeon\height_map.cpp(15): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>c:\users\jason\documents\visual studio 2010\projects\procedurallygenerateddungeon\procedurallygenerateddungeon\height_map.cpp(17): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\jason\documents\visual studio 2010\projects\procedurallygenerateddungeon\procedurallygenerateddungeon\height_map.cpp(18): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\jason\documents\visual studio 2010\projects\procedurallygenerateddungeon\procedurallygenerateddungeon\height_map.cpp(19): warning C4244: 'argument' : conversion from 'int' to 'const float', possible loss of data
+     1>c:\users\jason\documents\visual studio 2010\projects\procedurallygenerateddungeon\procedurallygenerateddungeon\height_map.cpp(19): warning C4244: 'argument' : conversion from 'int' to 'const float', possible loss of data
+     1>c:\users\jason\documents\visual studio 2010\projects\procedurallygenerateddungeon\procedurallygenerateddungeon\height_map.cpp(19): warning C4244: 'argument' : conversion from 'int' to 'const float', possible loss of data
+         Generating Code...
        Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Jason\documents\visual studio 2010\Projects\ProcedurallyGeneratedDungeon\Debug\ProcedurallyGeneratedDungeon.exe" /NOLOGO SDL2.lib SDL2main.lib SDL2_image.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\ProcedurallyGeneratedDungeon.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Jason\documents\visual studio 2010\Projects\ProcedurallyGeneratedDungeon\Debug\ProcedurallyGeneratedDungeon.pdb" /SUBSYSTEM:CONSOLE /STACK:"50485760" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Jason\documents\visual studio 2010\Projects\ProcedurallyGeneratedDungeon\Debug\ProcedurallyGeneratedDungeon.lib" /MACHINE:X86 Debug\simplexnoise.obj
-         Debug\main.obj
-         LINK : C:\Users\Jason\documents\visual studio 2010\Projects\ProcedurallyGeneratedDungeon\Debug\ProcedurallyGeneratedDungeon.exe not found or not built by the last incremental link; performing full link
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Jason\documents\visual studio 2010\Projects\ProcedurallyGeneratedDungeon\Debug\ProcedurallyGeneratedDungeon.exe" /NOLOGO SDL2.lib SDL2main.lib SDL2_image.lib glu32.lib glew32.lib glut32.lib opengl32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\ProcedurallyGeneratedDungeon.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Jason\documents\visual studio 2010\Projects\ProcedurallyGeneratedDungeon\Debug\ProcedurallyGeneratedDungeon.pdb" /SUBSYSTEM:CONSOLE /STACK:"50485760" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Jason\documents\visual studio 2010\Projects\ProcedurallyGeneratedDungeon\Debug\ProcedurallyGeneratedDungeon.lib" /MACHINE:X86 Debug\height_map.obj
+         Debug\simplexnoise.obj
+         Debug\main.obj /verbose:lib 
+         
+         Searching libraries
+             Searching c:\vs2010_lib\SDL2-2.0.3\lib\x86\SDL2.lib:
+             Searching c:\vs2010_lib\SDL2-2.0.3\lib\x86\SDL2main.lib:
+             Searching c:\vs2010_lib\SDL2_image-2.0.0\lib\x86\SDL2_image.lib:
+             Searching c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\lib\glu32.lib:
+             Searching c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\lib\glew32.lib:
+             Searching c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\lib\glut32.lib:
+             Searching c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\lib\opengl32.lib:
+             Searching c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\lib\kernel32.lib:
+             Searching c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\lib\user32.lib:
+             Searching c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\lib\gdi32.lib:
+             Searching c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\lib\winspool.lib:
+             Searching c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\lib\comdlg32.lib:
+             Searching c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\lib\advapi32.lib:
+             Searching c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\lib\shell32.lib:
+             Searching c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\lib\ole32.lib:
+             Searching c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\lib\oleaut32.lib:
+             Searching c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\lib\uuid.lib:
+             Searching c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\lib\odbc32.lib:
+             Searching c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\lib\odbccp32.lib:
+             Searching C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\lib\msvcprtd.lib:
+             Searching C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\lib\MSVCRTD.lib:
+             Searching C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\lib\OLDNAMES.lib:
+             Searching c:\vs2010_lib\SDL2-2.0.3\lib\x86\SDL2.lib:
+             Searching c:\vs2010_lib\SDL2-2.0.3\lib\x86\SDL2main.lib:
+             Searching c:\vs2010_lib\SDL2_image-2.0.0\lib\x86\SDL2_image.lib:
+             Searching c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\lib\glu32.lib:
+             Searching c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\lib\glew32.lib:
+             Searching c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\lib\glut32.lib:
+             Searching c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\lib\opengl32.lib:
+             Searching c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\lib\kernel32.lib:
+             Searching c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\lib\user32.lib:
+             Searching c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\lib\gdi32.lib:
+             Searching c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\lib\winspool.lib:
+             Searching c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\lib\comdlg32.lib:
+             Searching c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\lib\advapi32.lib:
+             Searching c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\lib\shell32.lib:
+             Searching c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\lib\ole32.lib:
+             Searching c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\lib\oleaut32.lib:
+             Searching c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\lib\uuid.lib:
+             Searching c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\lib\odbc32.lib:
+             Searching c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\lib\odbccp32.lib:
+             Searching C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\lib\msvcprtd.lib:
+             Searching C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\lib\MSVCRTD.lib:
+             Searching C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\lib\OLDNAMES.lib:
+             Searching C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\lib\msvcrt.lib:
+             Searching c:\vs2010_lib\SDL2-2.0.3\lib\x86\SDL2.lib:
+             Searching c:\vs2010_lib\SDL2-2.0.3\lib\x86\SDL2main.lib:
+             Searching c:\vs2010_lib\SDL2_image-2.0.0\lib\x86\SDL2_image.lib:
+             Searching c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\lib\glu32.lib:
+             Searching c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\lib\glew32.lib:
+             Searching c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\lib\glut32.lib:
+             Searching c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\lib\opengl32.lib:
+         
+         Finished searching libraries
      1>MSVCRTD.lib(cinitexe.obj) : warning LNK4098: defaultlib 'msvcrt.lib' conflicts with use of other libs; use /NODEFAULTLIB:library
          ProcedurallyGeneratedDungeon.vcxproj -> C:\Users\Jason\documents\visual studio 2010\Projects\ProcedurallyGeneratedDungeon\Debug\ProcedurallyGeneratedDungeon.exe
        Manifest:
@@ -21,4 +137,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:00.78
+Time Elapsed 00:00:01.44

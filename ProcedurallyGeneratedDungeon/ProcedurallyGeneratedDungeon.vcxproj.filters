@@ -24,10 +24,16 @@
     <ClCompile Include="simplex_noise\simplexnoise.cpp">
       <Filter>Source Files\simplex_noise</Filter>
     </ClCompile>
+    <ClCompile Include="height_map.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="simplex_noise\simplexnoise.h">
       <Filter>Source Files\simplex_noise</Filter>
+    </ClInclude>
+    <ClInclude Include="height_map.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
